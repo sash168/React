@@ -88,21 +88,6 @@ if there is an error then  try 'npm install --save-dev web-vitals'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 created and maintained by Facebook
 used in more than 70% of ui than vue and angular
 
