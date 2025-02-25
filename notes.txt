@@ -1,0 +1,122 @@
+React is fast js  library
+it used on SPA(single page application)
+works with components(parts).
+uses vitrual Dom (i.e. reloads only the required component)
+
+
+Note: When we run our code in browser it runs on V8 engine node.js configures V8 Engine in our laptop so that we can do browser task on our locall machine.(console.log)
+
+
+		Node Js
+		 /\
+		/  \
+	NPM     NPX
+	
+NPM whenever we install a package it puts it into the system then used in the working process(movie >> download >> watch)
+nut in NPX it is directly installed into the working process and not in entire system..(movie >> watch e.g utube)
+
+
+module 
+
+npm init -y
+in module file add "type":"module" for module or  as "Commonjs"
+
+there are 2 types of export:
+default : only one export e.g export default funcName
+Named: if there are more than 1 function to export e.g export{funcName1, funcName2} Note while importing use '{}'
+
+we can also create alias import {sumData as sum}
+
+
+creat react application
+
+npx create-react-app filename 
+npm start(to start the server or project)
+
+package.json = shows all library wwe have installed
+
+RFC = reactfunctioncomponent f
+
+
+Blank fragment - <> </>
+
+If there is single tag then you can keep it like that , if there are multiple tags then create a parent div tag and append them as child
+
+In componentt first letter is always caps
+
+Using BOOTSTRAP in react:
+
+terminal : npm i bootstrap 
+
+import this two things in index.js:
+
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+
+REACT-BOOTSTRAP : (Container)
+
+terminal : npm i react-bootstrap 
+website : https://react-bootstrap.netlify.app
+
+PROPS: sending data from parent to child
+
+we can assign obj str to props
+also we can perform destructuting on props. we can destruct it while its been passed in child with the help of destructuring
+
+children props = creating tags with the name of the file and then accessing it in the child function by using children keyword, use {children} where we want to show data.If we are passing arr of obj then make sure to pass a key props that make sre each obj is unique.
+
+FontAwesome commands to setup for icons:
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+
+we can access fontAwesome icons by using a component named <FontAwesomeIcons icon = {fasmile}/> icon is used to get specific icon.
+
+
+TailWind CSS :
+
+Do this on new react project where we have not implemented bootstrap and fontawesome:
+
+npm install -D tailwindcss
+npx tailwindcss init and keep following the remaining steps on https://tailwindcss.com/docs/guides/create-react-app
+if there is an error then  try 'npm install --save-dev web-vitals'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+created and maintained by Facebook
+used in more than 70% of ui than vue and angular
+
+NPM COMMANDS>>>>
+
+ npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
